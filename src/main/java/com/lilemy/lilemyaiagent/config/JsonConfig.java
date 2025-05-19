@@ -1,4 +1,4 @@
-package cn.lilemy.xiaoxinshu.config;
+package com.lilemy.lilemyaiagent.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;

@@ -1,4 +1,4 @@
-package cn.lilemy.xiaoxinshucommon.common;
+package com.lilemy.lilemyaiagent.common;
 
 
 /**

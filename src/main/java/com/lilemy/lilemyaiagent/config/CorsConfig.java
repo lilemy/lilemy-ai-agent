@@ -1,4 +1,4 @@
-package cn.lilemy.xiaoxinshu.config;
+package com.lilemy.lilemyaiagent.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * 全局跨域配置
  */
-//@Configuration
+@Configuration
 public class CorsConfig implements WebMvcConfigurer {
 
     @Override
@@ -17,7 +17,7 @@ public class CorsConfig implements WebMvcConfigurer {
                 // 允许发送 Cookie
                 .allowCredentials(true)
                 // 放行哪些域名（必须用 patterns，否则 * 会和 allowCredentials 冲突）
-                .allowedOriginPatterns("http://localhost:8000/", "http://localhost:3000/", "https://www.lilemy.cn/", "https://lilemy.cn/")
+                .allowedOriginPatterns("http://localhost:8000/", "http://localhost:3000/")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .exposedHeaders("*");

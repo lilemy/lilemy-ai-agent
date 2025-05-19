@@ -1,7 +1,6 @@
-package cn.lilemy.xiaoxinshucommon.exception;
+package com.lilemy.lilemyaiagent.exception;
 
-
-import cn.lilemy.xiaoxinshucommon.common.ResultCode;
+import com.lilemy.lilemyaiagent.common.ResultCode;
 
 /**
  * 抛异常工具类
